@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+body{
+    background:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("/images/cover1.jpg");
+    color: aliceblue;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+.back{
+    border: none;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: large;
+    
+}
+.backbutton{
+    padding: 30px 10px 10px 30px;
+    
+}
+.back:hover{
+    cursor: pointer;
+}
+.register-now1{
+  display: none;
+}
+.about-gv{
+  height: 100vh;
+  width: 100%;
+  
+  background:none;
+}
+
+.about{
+  width: 1130px;
+  max-width: 85%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.text{
+  width: 940px;
+}
+.text h2{
+  font-size: 90px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  padding-left: 100px;
+
+}
+hr {
+  padding-left: 100px;
+}
+.text p{
+  font-size: 18px;
+  line-height: 25px;
+  letter-spacing: 1px;
+  
+  padding-left: 100px;
+}
+.pix{
+  height: auto;
+  width:  302px;
+  padding-top: 120px;
+  border-radius: 10px;
+  
+}
+
+.register-now{
+  height: 40px;
+  width: 300px;
+  background-color: rgba(149, 83, 219, 0);
+  border-radius: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: larger;
+  color: aliceblue;
+}
+.register-now:hover{
+  border: 2px solid burlywood;
+  color: burlywood;
+
+}
+@media only screen and (max-width: 600px) {
+.text p{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+.text h2{
+    padding-left: 30px;
+    padding-right: 10px;
+    
+    
+}
+.back{
+    width:30px;
+    height: 30px;
+}
+.pix{
+  display: none;
+}
+.register-now{
+  display: none;
+  
+}
+.register-now1{
+  height: 40px;
+  width: 250px;
+  background-color: rgba(149, 83, 219, 0);
+  border-radius: 40px;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: larger;
+  color: aliceblue;
+  display: block;
+
+}
+.register-now b{
+  padding: 10px 10px 10px 10px;
+}
+
+
+   }
+
